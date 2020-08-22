@@ -22,6 +22,24 @@ To test the Locust, we are going to use `docker-compose` to start, setup, and st
 - 1 Locust Master
 - 3 Locust Workers
 
+```yaml
+version: '3'
+
+services:
+
+  application:
+    image: chentex/go-rest-api
+    # Omitted lines
+
+  master:
+    image: locustio/locust
+    # Omitted lines
+
+  worker:
+    image: locustio/locust
+    # Omitted lines
+```
+
 It is not necessary to know about `docker-compose`, because, we already have a set of scripts to do it for us.
 
 - start.sh: Start the environment (locust master, worker, and application)

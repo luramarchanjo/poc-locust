@@ -42,8 +42,8 @@ services:
 
 It is not necessary to know about `docker-compose`, because, we already have a set of scripts to do it for us.
 
-- start.sh: Start the environment (locust master, worker, and application)
-- stop.sh: Stop the environment (locust master, worker, and application)
+- **start.sh:** Start the environment (locust master, worker, and application)
+- **stop.sh:** Stop the environment (locust master, worker, and application)
 
 Let us a test?
 

@@ -41,6 +41,8 @@ After starting the environment, open the Locust address `http://localhost:8089` 
 
 Click at `Start swarming` button and go to the `Charts` tab!
 
+![alt text](/images/locust-performance-test.png "Locust Chart Tab")
+
 To stop the test and environment, we need to run the above script:
 
 `sh stop.sh`

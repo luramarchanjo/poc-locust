@@ -6,7 +6,4 @@ class QuickstartUser(HttpUser):
 
     @task
     def index_page(self):
-        payload = {
-            "name" : "Luram Archanjo"
-        }
-        self.client.post("/v1/proposals", json=payload)
+        self.client.get("/test")

@@ -2,6 +2,12 @@ version: '3'
 
 services:
 
+  application:
+    image: chentex/go-rest-api
+    expose:
+      - "8080"
+    network_mode: host
+
   master:
     image: locustio/locust
     expose:
@@ -10,8 +16,8 @@ services:
       - ./:/mnt/locust
     environment:
       LOCUST_HOST: http://127.0.0.1:8080
-      LOCUST_USERS: 100
-    command: -f /mnt/locust/locustfile.py --master -r 1
+      LOCUST_USERS: 500
+    command: -f /mnt/locust/locustfile.py --master -r 10
     network_mode: host
 
   worker:

@@ -1,2 +1,2 @@
 #!/bin/bash
-docker-compose down --remove-orphans
+docker-compose -f locust/docker-compose.yml down --remove-orphans

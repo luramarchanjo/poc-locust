@@ -1,3 +1,3 @@
 #!/bin/bash
 sh stop.sh
-docker-compose up -d --scale worker=3
+docker-compose -f locust/docker-compose.yml up -d --scale worker=3

@@ -47,7 +47,7 @@ It is not necessary to know about `docker-compose`, because, we already have a s
 
 Let us a test?
 
-1ª We need to start the environment to do that, we need to run the above script:
+We need to start the environment to do that, run the above script:
 
 `sh start.sh`
 
@@ -61,7 +61,7 @@ Click at `Start swarming` button and go to the `Charts` tab!
 
 ![alt text](/images/locust-performance-test.png "Locust Chart Tab")
 
-To stop the test and environment, we need to run the above script:
+To stop the test and environment, run the above script:
 
 `sh stop.sh`
 

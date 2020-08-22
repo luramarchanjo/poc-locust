@@ -53,9 +53,9 @@ We need to start the environment to do that, run the above script:
 
 After starting the environment, open the Locust address `http://localhost:8089` and set the information:
 
-- Number of total users to simulate
-- Hatch rate (users spawned/second)
-- Host (e.g. http://www.example.com)
+- **Number of total users to simulate:** 500
+- **Hatch rate:** 10
+- **Host:** http://127.0.0.1:8080
 
 Click at `Start swarming` button and go to the `Charts` tab!
 
